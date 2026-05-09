@@ -76,19 +76,11 @@ export interface Experience {
 
 export const EXPERIENCES: Experience[] = [
   {
-    title: "Software Engineer",
-    company: "Capgemini",
-    contract: "CDI",
-    period: "Mars 2024 — Present",
-    location: "Paris",
-    mode: "Hybride",
-  },
-  {
     title: "Ingenieur DevOps",
-    company: "Sogeti",
+    company: "Capgemini (Sogeti)",
     contract: "CDI",
     period: "Mars 2024 — Present",
-    location: "Issy-les-Moulineaux",
+    location: "Paris / Issy-les-Moulineaux",
     mode: "Hybride",
   },
   {
