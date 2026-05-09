@@ -19,6 +19,15 @@ export function Footer() {
         </a>
         <span className="text-border">|</span>
         <a
+          href="https://devops.mouctar.fr"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-mono transition-colors hover:text-foreground"
+        >
+          devops.mouctar.fr
+        </a>
+        <span className="text-border">|</span>
+        <a
           href="https://snake.mouctar.fr"
           target="_blank"
           rel="noopener noreferrer"
