@@ -28,6 +28,24 @@ export function Footer() {
         </a>
         <span className="text-border">|</span>
         <a
+          href="https://cybersec.mouctar.fr"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-mono transition-colors hover:text-foreground"
+        >
+          cybersec.mouctar.fr
+        </a>
+        <span className="text-border">|</span>
+        <a
+          href="https://shop.mouctar.fr"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-mono transition-colors hover:text-foreground"
+        >
+          shop.mouctar.fr
+        </a>
+        <span className="text-border">|</span>
+        <a
           href="https://snake.mouctar.fr"
           target="_blank"
           rel="noopener noreferrer"

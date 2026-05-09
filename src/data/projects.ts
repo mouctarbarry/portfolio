@@ -43,11 +43,18 @@ export const PROJECTS: Project[] = [
     badge: 'Live',
   },
   {
+    title: 'CyberSec Platform',
+    description: 'Guides de cybersecurite : OWASP, cryptographie, pentest, hardening et fondamentaux.',
+    tech: ['Next.js', 'TypeScript', 'MDX', 'Tailwind'],
+    url: 'https://cybersec.mouctar.fr',
+    badge: 'Live',
+  },
+  {
     title: 'E-commerce',
-    description: "Plateforme e-commerce complete avec panier, paiement Stripe et gestion des commandes.",
-    tech: ['Next.js', 'TypeScript', 'Supabase', 'Stripe'],
-    url: 'https://github.com/mouctarbarry/ecommerce',
-    badge: 'Open Source',
+    description: "Boutique en ligne avec catalogue produits, panier interactif et checkout.",
+    tech: ['Next.js', 'TypeScript', 'React', 'Tailwind'],
+    url: 'https://shop.mouctar.fr',
+    badge: 'Live',
   },
 ];
 
