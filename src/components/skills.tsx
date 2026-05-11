@@ -3,7 +3,7 @@ import type { SkillCategory } from '@/data/projects';
 export function Skills({ categories }: { categories: SkillCategory[] }) {
   return (
     <section className="py-16">
-      <h2 className="mb-8 text-center text-3xl font-bold tracking-tight">Competences</h2>
+      <h2 className="mb-8 text-center text-3xl font-bold tracking-tight">Compétences</h2>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {categories.map((cat) => (
           <div

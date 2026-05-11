@@ -3,14 +3,14 @@ export interface Project {
   description: string;
   tech: string[];
   url: string;
-  badge: "Live" | "Universite" | "Certification" | "Open Source";
+  badge: "Live" | "Université" | "Certification" | "Open Source";
 }
 
 export const PROJECTS: Project[] = [
   {
     title: "Linux Platform",
     description:
-      "Reference interactive de 83 commandes Linux avec exemples pratiques et recherche instantanee.",
+      "Référence interactive de 83 commandes Linux avec exemples pratiques et recherche instantanée.",
     tech: ["Next.js", "TypeScript", "MDX", "Tailwind"],
     url: "https://linux.mouctar.fr",
     badge: "Live",
@@ -18,7 +18,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Snake Game",
     description:
-      "Le classique du Snake revisite en JavaScript pur — jouable directement dans le navigateur.",
+      "Le classique du Snake revisité en JavaScript pur — jouable directement dans le navigateur.",
     tech: ["JavaScript", "HTML5", "Canvas"],
     url: "https://snake.mouctar.fr",
     badge: "Live",
@@ -26,18 +26,18 @@ export const PROJECTS: Project[] = [
   {
     title: "Projet Cryptographie",
     description:
-      "Implementation d'algorithmes cryptographiques en C — projet universitaire avec cahier des charges complet.",
+      "Implémentation d'algorithmes cryptographiques en C — projet universitaire avec cahier des charges complet.",
     tech: ["C", "Makefile", "Cryptographie"],
     url: "https://github.com/mouctarbarry/Projet-Cryptographie",
-    badge: "Universite",
+    badge: "Université",
   },
   {
     title: "Projet ADN",
     description:
-      "Analyse de sequences ADN, operations CRUD et regroupement en familles par similarite.",
+      "Analyse de séquences ADN, opérations CRUD et regroupement en familles par similarité.",
     tech: ["C", "Makefile", "Algorithmes"],
     url: "https://github.com/mouctarbarry/ProjetADN",
-    badge: "Universite",
+    badge: "Université",
   },
   {
     title: "DevOps & SRE",
@@ -50,7 +50,7 @@ export const PROJECTS: Project[] = [
   {
     title: "CyberSec Platform",
     description:
-      "Guides de cybersecurite : OWASP, cryptographie, pentest, hardening et fondamentaux.",
+      "Guides de cybersécurité : OWASP, cryptographie, pentest, hardening et fondamentaux.",
     tech: ["Next.js", "TypeScript", "MDX", "Tailwind"],
     url: "https://cybersec.mouctar.fr",
     badge: "Live",
@@ -76,23 +76,23 @@ export interface Experience {
 
 export const EXPERIENCES: Experience[] = [
   {
-    title: "Ingenieur DevOps",
+    title: "Ingénieur DevOps",
     company: "Capgemini (Sogeti)",
     contract: "CDI",
-    period: "Mars 2024 — Present",
+    period: "Mars 2024 — Présent",
     location: "Paris / Issy-les-Moulineaux",
     mode: "Hybride",
   },
   {
-    title: "Ingenieur DevOps",
+    title: "Ingénieur DevOps",
     company: "Bpifrance",
-    contract: "Independant",
-    period: "Fevr. 2023 — Present",
+    contract: "Indépendant",
+    period: "Févr. 2023 — Présent",
     location: "Paris",
     mode: "Hybride",
   },
   {
-    title: "Referent CROUS",
+    title: "Référent CROUS",
     company: "Crous de Versailles",
     contract: "CDD",
     period: "Sept. 2021 — Sept. 2023",
@@ -100,10 +100,10 @@ export const EXPERIENCES: Experience[] = [
     mode: "Sur site",
   },
   {
-    title: "Developpeur logiciels",
+    title: "Développeur logiciels",
     company: "UVSQ — UFR des Sciences",
     contract: "Freelance",
-    period: "Sept. 2019 — Fevr. 2023",
+    period: "Sept. 2019 — Févr. 2023",
     location: "Versailles",
     mode: "Sur site",
   },
@@ -117,13 +117,13 @@ export interface Education {
 
 export const EDUCATION: Education[] = [
   {
-    degree: "Master Ingenierie des Reseaux et Systemes",
-    school: "Universite Paris Saclay",
+    degree: "Master Ingénierie des Réseaux et Systèmes",
+    school: "Université Paris Saclay",
     period: "2021 — 2023",
   },
   {
     degree: "Licence Informatique",
-    school: "Universite de Versailles (UVSQ)",
+    school: "Université de Versailles (UVSQ)",
     period: "2018 — 2021",
   },
 ];

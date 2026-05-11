@@ -4,14 +4,14 @@ import type { Experience } from '@/data/projects';
 const CONTRACT_STYLES: Record<string, string> = {
   CDI: 'bg-green-500/10 text-green-600 dark:text-green-400',
   CDD: 'bg-yellow-500/10 text-yellow-600 dark:text-yellow-400',
-  Independant: 'bg-blue-500/10 text-blue-600 dark:text-blue-400',
+  'Indépendant': 'bg-blue-500/10 text-blue-600 dark:text-blue-400',
   Freelance: 'bg-purple-500/10 text-purple-600 dark:text-purple-400',
 };
 
 export function ExperienceSection({ experiences }: { experiences: Experience[] }) {
   return (
     <section className="py-16">
-      <h2 className="mb-8 text-center text-3xl font-bold tracking-tight">Experience</h2>
+      <h2 className="mb-8 text-center text-3xl font-bold tracking-tight">Expérience</h2>
       <div className="relative space-y-0">
         <div className="absolute left-[19px] top-2 bottom-2 w-px bg-border sm:left-1/2 sm:-translate-x-px" />
 
