@@ -17,8 +17,8 @@ export function Hero() {
       </p>
 
       <p className="mx-auto mb-8 max-w-lg text-lg leading-relaxed text-muted-foreground">
-        Je construis et maintiens des infrastructures fiables, automatisees et observables.
-        Passionne par le cloud, l&apos;open source et le partage de connaissances.
+        Je construis et maintiens des infrastructures fiables, automatisées et observables.
+        Passionné par le cloud, l&apos;open source et le partage de connaissances.
       </p>
 
       <div className="flex gap-4">
