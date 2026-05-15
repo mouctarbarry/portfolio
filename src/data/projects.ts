@@ -136,13 +136,13 @@ export interface SkillCategory {
 export const SKILLS: SkillCategory[] = [
   {
     title: "Cloud & Infra",
-    skills: ["Kubernetes", "Docker", "Terraform", "AWS"],
+    skills: ["Kubernetes", "Docker", "Terraform", "AWS", "Azure"],
   },
   {
     title: "Langages",
-    skills: ["TypeScript", "Go", "Python", "C", "Shell/Bash"],
+    skills: ["TypeScript", "Java", "Go", "Python", "C", "C++", "CSharp", "Shell/Bash"],
   },
-  { title: "Web", skills: ["Next.js", "React", "Tailwind CSS", "Node.js"] },
-  { title: "DevOps", skills: ["CI/CD", "GitHub Actions", "Ansible", "Linux"] },
-  { title: "Databases", skills: ["PostgreSQL", "Supabase", "SQL"] },
+  { title: "Web", skills: ["Next.js", "React", "Angular", "Tailwind CSS", "Node.js"] },
+  { title: "DevOps", skills: ["CI/CD", "Jenkins", "GitHub Actions", "Gitlab CI", "Ansible", "Linux"] },
+  { title: "Databases", skills: ["PostgreSQL", "MongoDB", "Redis", "MySQL"] },
 ];
